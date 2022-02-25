@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MondiaTask</string>
+    <string name="search">search song / album</string>
+    <string name="home">Home</string>
+    <string name="title">Title</string>
+    <string name="type">Type</string>
+    <string name="artist">Artist</string>
+    <string name="geners">Genres</string>
+    <string name="licensorName">Licensor Name</string>
+    <string name="noDataFound">No data found ...!!</string>
+</resources>

@@ -1,0 +1,31 @@
+package com.abdelmageed.mondiatask.data.remote.responses
+
+data class FlatResponseItem(
+    val additionalArtists: List<Any>,
+    val adfunded: Boolean,
+    val bundleOnly: Boolean,
+    val cover: Cover?,
+    val duration: String,
+    val genres: List<String>?,
+    val id: String,
+    val idBag: IdBag,
+    val label: String,
+    val licensorName: String,
+    val mainArtist: MainArtist?,
+    val mainRelease: Boolean,
+    val name: String,
+    val natures: List<String>,
+    val numberOfTracks: String,
+    val partialStreamable: Boolean,
+    val publishingDate: String?,
+    val release: Release,
+    val statistics: Statistics,
+    val streamable: Boolean,
+    val streamableTracks: String,
+    val title: String?,
+    val trackNumber: String,
+    val type: String,
+    val urlBag: UrlBag,
+    val variousArtists: Boolean,
+    val volumeNumber: String
+)
